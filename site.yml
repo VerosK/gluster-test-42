@@ -1,0 +1,7 @@
+---
+- name: First playbook
+  hosts: all
+  tasks:
+  - name: Ping host
+    ping:
+
